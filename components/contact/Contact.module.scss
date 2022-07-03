@@ -1,0 +1,47 @@
+@import '../../styles/config';
+
+.contact {
+  .field {
+    margin-bottom: 30px;
+  }
+
+  .input {
+    @include formElement;
+
+    &:focus[type='email'] {
+      text-transform: lowercase;
+    }
+  }
+
+  .textarea {
+    resize: none;
+    height: 120px;
+  }
+
+  label {
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+
+    &.focus {
+      opacity: 0;
+    }
+  }
+
+  .error {
+    font-size: 0.75rem;
+    color: #ff3333;
+  }
+
+  .btn {
+    @include reset-button;
+
+    width: 100%;
+    padding: 10px;
+    background: $color-dark;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}

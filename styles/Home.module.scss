@@ -1,0 +1,74 @@
+.img,
+.content {
+  grid-column: 1 / -1;
+}
+
+.logo {
+  margin-bottom: 40px;
+}
+
+.contact {
+  grid-column: 8 / span 9;
+
+  .msg {
+    text-align: center;
+  }
+}
+
+.form {
+  margin-top: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.text {
+  display: grid;
+  grid-template-columns: 33px auto;
+  grid-gap: 30px;
+
+  svg {
+    margin-top: 8px;
+    justify-self: center;
+  }
+
+  h1,
+  h2 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    grid-column: 4 / span 8;
+    order: -1;
+  }
+
+  .content {
+    grid-column: 14 / -4;
+    padding-top: 40px;
+  }
+
+  .contact {
+    grid-column: 4 / span 18;
+  }
+
+  //   .logo {
+  //     margin-left: -75px;
+  //     margin-bottom: 80px;
+  //   }
+}
+
+@media screen and (min-width: 1080px) {
+  .logo {
+    // margin-left: -75px;
+    margin-bottom: 80px;
+  }
+
+  .contact {
+    grid-column: 7 / span 12;
+  }
+}
