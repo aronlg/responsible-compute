@@ -43,7 +43,7 @@ const Home: NextPage = () => {
                   </svg>
                 </span>
                 Located in the North of Iceland in a conflict free location in
-                between continents.
+                between continents
               </h2>
             </div>
           </div>
