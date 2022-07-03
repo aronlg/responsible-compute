@@ -3,6 +3,10 @@
   grid-column: 1 / -1;
 }
 
+.content {
+  padding: 0 0 30px;
+}
+
 .logo {
   margin-bottom: 40px;
 }
@@ -24,18 +28,22 @@
 }
 
 .text {
-  display: grid;
-  grid-template-columns: 33px auto;
-  grid-gap: 30px;
+  //   display: grid;
+  //   grid-template-columns: 33px auto;
+  //   grid-gap: 30px;
 
   svg {
     margin-top: 8px;
     justify-self: center;
   }
 
+  .dot {
+    margin-right: 15px;
+  }
+
   h1,
   h2 {
-    margin: 0;
+    // margin: 0;
     font-size: 1rem;
     font-weight: 600;
   }
@@ -49,7 +57,7 @@
 
   .content {
     grid-column: 14 / -4;
-    padding-top: 40px;
+    padding: 40px 0 0;
   }
 
   .contact {
