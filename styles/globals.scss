@@ -22,10 +22,11 @@ body {
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
   background: #fafafa;
+  color: $color-dark;
 }
 
 a {
-  color: #5ca625;
+  color: $color-primary;
   text-decoration: none;
 
   &:hover {

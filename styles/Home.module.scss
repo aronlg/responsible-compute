@@ -1,3 +1,5 @@
+@import '../styles/config';
+
 .img,
 .content {
   grid-column: 1 / -1;
@@ -28,10 +30,6 @@
 }
 
 .text {
-  //   display: grid;
-  //   grid-template-columns: 33px auto;
-  //   grid-gap: 30px;
-
   svg {
     margin-top: 8px;
     justify-self: center;
@@ -43,9 +41,8 @@
 
   h1,
   h2 {
-    // margin: 0;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: $font-semibold;
   }
 }
 

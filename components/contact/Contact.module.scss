@@ -20,9 +20,9 @@
 
   label {
     display: block;
-    font-weight: 600;
+    font-weight: $font-semibold;
     font-size: 15px;
-    color: #000;
+    color: $color-dark;
 
     &.focus {
       opacity: 0;
@@ -42,6 +42,21 @@
     background: $color-dark;
     color: #fff;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: $font-semibold;
+  }
+
+  .info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+
+    svg {
+      display: block;
+    }
+  }
+
+  .icon {
+    margin-right: 10px;
   }
 }
