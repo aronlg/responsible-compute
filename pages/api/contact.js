@@ -26,7 +26,7 @@ const handler = async (req, res) => {
         <p><strong>Message: </strong> ${message}</p>`,
     })
 
-    console.log('Message sent', emailRes.messageId)
+    console.log('message sent', emailRes.messageId)
   } catch (err) {
     console.log('err', err)
   }

@@ -9,8 +9,11 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>RC</title>
-        <meta name="description" content="Built with Next.js" />
+        <title>Responsible Compute</title>
+        <meta
+          name="description"
+          content="Providing HPC Infrastructure as a Service using 100% renewable energy. Located in the North of Iceland in a conflict free location in-between continents"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -42,8 +45,8 @@ const Home: NextPage = () => {
                     <circle r="50%" cx="50%" cy="50%" fill="#A8EB8E"></circle>
                   </svg>
                 </span>
-                Located in the North of Iceland in a conflict free location in
-                between continents
+                Located in the North of Iceland in a conflict free location
+                in-between continents
               </h2>
             </div>
           </div>
