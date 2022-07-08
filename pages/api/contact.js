@@ -1,7 +1,5 @@
 import nodemailer from 'nodemailer'
 
-//eslint-disable import/no-anonymous-default-export
-
 const handler = async (req, res) => {
   const { name, email, message } = req.body
 
